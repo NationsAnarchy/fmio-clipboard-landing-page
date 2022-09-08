@@ -96,6 +96,10 @@ header img {
     line-height: 25px;
 }
 
+.feature-detail p {
+    text-align: left;
+}
+
 .feature-image {
     grid-area: 3 / 1 / 7 / 2;
     text-align: center;
@@ -303,6 +307,7 @@ footer {
 
     .introduction p, .feature-header p, .feature-content p, .feature-two p, .feature-three p, .download p {
         max-width: 275px;
+        text-align: center;
     }
 
     .feature-two img {
