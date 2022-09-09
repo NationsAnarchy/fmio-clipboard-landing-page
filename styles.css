@@ -27,13 +27,15 @@ header {
     flex-direction: row;
     margin: 25px 0;
     gap: 15px;
+    font-weight: bold;
 }
 
-a {
+.download-container a {
     text-decoration: none;
     color: white;
     padding: 12px 30px;
     border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .mac {
@@ -232,6 +234,7 @@ footer {
 }
 
 .navigation a {
+    text-decoration: none;
     color: var(--dark-grayish-blue);
     padding: 0;
 }
